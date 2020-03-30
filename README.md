@@ -30,7 +30,7 @@ Check if you have installed all these plugins before start.
 
 ```sh
 $ sudo groupadd docker
-$ sudo usermod -aG docker ${USER}
+$ sudo usermod -aG docker jenkins
 $ sudo chmod 666 /var/run/docker.sock
 $ sudo systemctl restart docker
 ```
