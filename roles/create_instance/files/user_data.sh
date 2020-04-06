@@ -1,9 +1,7 @@
 #!/bin/bash
-set -e -x
-export DEBIAN_FRONTEND=noninteractive
-sudo locale-gen pt_BR.UTF-8
-sudo apt-get install -y nginx
-cat > /etc/nginx/sites-enabled/default << EOF
+sudo apt update -y
+sudo apt install nginx -y
+sudo cat > /etc/nginx/sites-enabled/default << EOF
 server {
     #listen   80; ## listen for ipv4; this line is default and implied
     #listen   [::]:80 default_server ipv6only=on; ## listen for ipv6
@@ -23,7 +21,7 @@ server {
     }
 }
 EOF
-cat > /var/www/html/index.html << HEREDOC
+sudo cat > /var/www/html/index.html << HEREDOC
 <!DOCTYPE html>
 <html>
 <body>
