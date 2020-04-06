@@ -1,7 +1,7 @@
 #!/bin/bash
 sudo apt update -y
 sudo apt install nginx -y
-sudo cat > /etc/nginx/sites-enabled/default << EOF
+sudo cat > /etc/nginx/sites-available/default << EOF
 server {
     #listen   80; ## listen for ipv4; this line is default and implied
     #listen   [::]:80 default_server ipv6only=on; ## listen for ipv6
