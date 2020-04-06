@@ -12,3 +12,4 @@ This repository provides the supporting material for the "ND9991 Cloud DevOps Na
 
 1. Create a key-name called -> Jenkins_demo
 2. Select the AZ (us-east-2) and copy/paste the SG for ELB and `update roles/create_instance/tasks/main.yaml` with the SG in group_id (Create EC2 instances)
+3. Create Hosted Zone using wread.com (roles/route53/tasks/main.yaml)
