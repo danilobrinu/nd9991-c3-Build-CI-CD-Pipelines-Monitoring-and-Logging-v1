@@ -22,6 +22,7 @@ Check if you have installed all these plugins before start.
 * [aquaMicroScanner](https://plugins.jenkins.io/aqua-microscanner/)
 * [withAWS](https://plugins.jenkins.io/pipeline-aws/)
 * [withCredentials](https://plugins.jenkins.io/credentials-binding/)
+* [Ansible](https://jenkins.io/doc/pipeline/steps/ansible/)
 
 #### 4. Docker (Aqua MicroScanner)
 
