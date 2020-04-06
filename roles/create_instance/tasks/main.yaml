@@ -19,8 +19,6 @@
     image: ami-0986c2ac728528ac2
     user_data: "{{ USERDATA }}"
     region: us-east-2
-    group_id:
-      - sg-5bc8fd06
     wait: yes
     instance_tags:
       Name: web_server
